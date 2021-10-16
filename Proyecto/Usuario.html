@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso y Registro</title>
+</head>
+<body>
+    <header>
+        <!-- Barra de navegación -->
+        <nav class="nav">
+            <!-- Botones -->
+            <div class="container">
+                <!-- Logo -->
+                <a href="Index.html" class="nav_img">
+                    <img src="../proyecto_copia/src/images/perfil_sin_fondo2.png" alt="Carpinteria Isabella" />
+                </a>
+                <a class="nav_item" href="sobreNosotros.html">¿Quienes somos?</a>
+                <a class="nav_item" href="Productos.html">Productos</a>
+                <a class="nav_item" href="contactenos.html">Contáctenos</a>
+                <a class="nav_item" href="Usuario.html">Iniciar Sesion</a>
+                <a class="nav_item_icon" target="_blank" href="https://www.facebook.com/MuebleriaYCarpinteriaIsabella/">
+                    <img src="../proyecto_copia/src/images/icono_fb.png" alt="" />
+                </a>
+                <a class="nav_item_icon" target="_blank"
+                    href="https://www.instagram.com/mueblesycarpinteriaisabella/?hl=es">
+                    <img src="../proyecto_copia/src/images/icono_ig.png" alt="" />
+                </a>
+                <a class="nav_item_icon" target="_blank" href="https://wa.me/+573212529034">
+                    <img src="../proyecto_copia/src/images/icono_wp.png" alt="" />
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <fieldset>
+            <legend>INICIAR SESION</legend>
+            <h1>Ingrese sus datos para iniciar sesion</h1>
+            <form action="" method="POST">
+                <label for="usuario">Usuario</label><br>
+          <input
+            type="text"
+            id="usuario"
+            name="usuario"
+            tabindex="1"
+            placeholder="Ingrese el nombre de usuario"
+            size="50"
+            required
+          />
+          <br /><br />
+
+          <label for="clave">Contraseña</label><br>
+          <input
+            type="password"
+            name="clave"
+            id="clave"
+            tabindex="1"
+            placeholder="Ingrese la Contraseña"
+            size="50"
+            required
+          />
+            <br><br>
+            <button type="submit" tabindex="3" >Ingresar</button>
+            </form><br>
+
+            <form action="Registro.html" method="POST">
+                <button type="submit" method="POST" tabindex="4">Registrarse</button>
+            </form>
+        </fieldset>
+    </section>
+
+
+
+</body>
+</html>

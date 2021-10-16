@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!-- Barra de navegación -->
+        <nav class="nav">
+            <!-- Botones -->
+            <div class="container">
+                <!-- Logo -->
+                <a href="Index.html" class="nav_img">
+                    <img src="../proyecto_copia/src/images/perfil_sin_fondo2.png" alt="Carpinteria Isabella" />
+                </a>
+                <a class="nav_item" href="sobreNosotros.html">¿Quienes somos?</a>
+                <a class="nav_item" href="Productos.html">Productos</a>
+                <a class="nav_item" href="contactenos.html">Contáctenos</a>
+                <a class="nav_item" href="Usuario.html">Iniciar Sesion</a>
+                <a class="nav_item_icon" target="_blank" href="https://www.facebook.com/MuebleriaYCarpinteriaIsabella/">
+                    <img src="../proyecto_copia/src/images/icono_fb.png" alt="" />
+                </a>
+                <a class="nav_item_icon" target="_blank"
+                    href="https://www.instagram.com/mueblesycarpinteriaisabella/?hl=es">
+                    <img src="../proyecto_copia/src/images/icono_ig.png" alt="" />
+                </a>
+                <a class="nav_item_icon" target="_blank" href="https://wa.me/+573212529034">
+                    <img src="../proyecto_copia/src/images/icono_wp.png" alt="" />
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <h1>Contáctenos</h1>
+    <form method= "POST">
+        <fieldset>
+            <legend>Datos Personales</legend>
+        <label for="nombre">Nombre y Apellidos: </label><br/>
+        <input 
+        type="text" 
+        id="nombre" 
+        name="nombre" 
+        tabindex="1"
+        required = "true"
+        />
+        <br/><br/>
+
+        <label for="correo">Correo electrónico: </label><br/>
+        <input 
+        type="email" 
+        id="correo" 
+        name="correo" 
+        tabindex="2"
+        required = "true"
+        />
+        <br/><br>
+
+        <label for="telefono">Teléfono de contacto: </label><br>
+        <input 
+        type="number" 
+        id="telefono" 
+        name="telefono" 
+        tabindex="3"
+        required = "true"
+        />
+        <br/><br/>
+
+        <label for="">Mensaje: </label><br/>
+        <textarea name="mensaje" id="mensaje" cols="60" rows="5" tabindex="4" required>
+        </textarea>
+        <br/><br/>
+
+        <label for="condiciones">Acepto términos y condiciones</label>
+        <input type="checkbox" id="condiciones" name="condiciones" value="condiciones" tabindex="5" required/>
+
+        <br/><br/>
+        <button type="submit">Enviar</button>
+    </fieldset>
+
+    </form>
+</body>
+</html>
